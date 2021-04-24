@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.50%;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.introduction {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__name {
+    font-family: "Shadows Into Light";
+    font-size: 10rem;
+    color: #CE3535;
+}
+
+.profile__title {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.note {
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+}
+
+.note {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.note__text {
+    font-family: "Waiting for the Sunrise";
+    font-size: 3rem;
+    transform: rotateZ(-30deg);
+}
+
+.note__arrow {
+    max-width: 50%;
+    position: absolute;
+    left: 70%;
+}
+
+.image-wrapper {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.image-wrapper:first-child {
+    margin: 0;
+}
+
+.design-name {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 430px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /*pointer-events: none;*/
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 50px 250px;
+    }
+
+    .note {
+        position: absolute;
+        left: 25%;
+        bottom: 15%;
+    }
+
+
+}
